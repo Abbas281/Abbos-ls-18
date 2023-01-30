@@ -1,110 +1,59 @@
-@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Tenor Sans", sans-serif;
-}
-span,
-p {
-  font-family: "Libre Franklin", sans-serif;
-}
-.AB-dekstop {
-  width: 100%;
-  height: 1700px;
-  background: #ffffff;
-}
-.AB-nav-cont {
-  height: 90px;
-  width: 100%;
-  border-bottom: 1px solid grey;
 
-  /* display: flex; */
+.md-box {
+    width: 80%;
+    margin: auto;
+    margin-top: 15%;
 }
-.AB-navbar {
-  height: 90px;
-  width: 1200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
+.md-img {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
 }
-.AB-nav-left {
-  /* background: #000000; */
-  font-size: 30px;
-  font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
+.md-text {
+    display: flex;
+    gap: 1%;
 }
-.AB-nav-right {
-  height: 90px;
-  width: 205px;
+.md-p {
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height, or 120% */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #999999;
+
 }
-.AB-ul {
-  height: 90px;
-  width: 205px;
-  gap: 40px;
-  list-style: none;
-  display: flex;
-  align-items: center;
+.md-mr {
+    margin-bottom: 2.5%;
 }
-.AB-ul li {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #000000;
+.md-txt {
+    font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 24px;
+/* identical to box height, or 126% */
+
+text-transform: uppercase;
+
+color: #000000;
+
 }
-.AB-japan-house-cont {
-  height: 472.5px;
-  width: 1200px;
-  display: flex;
-  margin: auto;
-  margin-top: 60px;
-}
-.AB-img-japan-cont {
-  height: 474px;
-  width: 721px;
-}
-.AB-txt-japan {
-  height: 342px;
-  width: 450px;
-  padding-left: 40px;
-}
-.AB_span-txt {
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #999999;
-}
-.AB-big-txt {
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 42px;
-  text-transform: uppercase;
-  color: #000000;
-}
-.AB-lorem1 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #666666;
-}
-.AB-by-txt {
-  font-weight: 700;
-  font-size: 10px;
-  line-height: 12px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #000000;
+.md-by {
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height, or 120% */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000;
 }
 .AB-mg-top-18 {
   margin-top: 18px;
@@ -158,16 +107,10 @@ p {
   height: 482px;
   display: flex;
 }
-
-
-
-
-
 /* MF */
 .FM {
   width: 100%;
-  height: 150vh;
-  margin-bottom: 100px;
+  height: 130vh;
 }
 .FM-1 {
   width: 1200px;
@@ -228,186 +171,3 @@ p {
   margin-bottom: 100px;
  }
 
-
-
-/* jonibek */
-
- .jbr{
-  width: 100%;
-  height: 617px;
-  background: #141414;
-}
-.last-icon{
-  width: 1200px;
-  height: 22px;
-  margin: auto;
-  padding-top: 90px;
-  padding-bottom: 82px;
-}
-.last-icon span{
-  padding-left: 10px;
-  font-family: 'Libre Franklin';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 12px;
-letter-spacing: 1px;
-text-transform: uppercase;
-color: #666666;
-}
-#line{
-  width: 1200px;
-  margin: auto;
-  background: #4D4D4D;
-  height: 0.1px;
-}
-.categories{
-  width: 65%;
-}
-.gray{
-  font-family: 'Libre Franklin';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 12px;
-letter-spacing: 1px;
-text-transform: uppercase;
-color: #666666;
-padding-bottom: 20px;
-}
-.flex-1{
-  display: flex;
-  justify-content: space-between;
-  font-family: 'Libre Franklin';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-color: #FFFFFF;
-line-height: 40px;
-}
-.subscribe{
-}
-.flex-2{
-  display: flex;
-  font-family: 'Libre Franklin';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-color: #FFFFFF;
-}
-.flex-0{
-  display: flex;
-  width: 1200px;
-  justify-content: space-between;
-  padding-top: 60px;
-  margin: auto;
-}
-#adres{
-  width: 221px;
-  height: 48px;
-  background-color: #FFFFFF;
-  padding-left: 15px;
-  font-family: 'Libre Franklin';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 12px;
-letter-spacing: 1px;
-text-transform: uppercase;
-color: #666666;
-display: flex;
-align-items: center;
-}
-.flex-2 p{
-  background-color: #000000;
-  width: 70px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  padding-left: 15px;
-}
-.flex-3{
-  display: flex;
-  width: 60%;
-  margin-left: 160px;
-  padding-top: 60px;
-}
-.txt{
-  font-family: 'Libre Franklin';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 40px;
-color: #FFFFFF;
-
-}
-
-/* muhammadi */
-
-
-
-.md-box {
-  width: 80%;
-  margin: auto;
-  margin-top: 15%;
-  margin-bottom: 100px;
-}
-.md-img {
-  display: flex;
-  justify-content: space-between;
-  gap: 2%;
-}
-.md-text {
-  display: flex;
-  gap: 1%;
-}
-.md-p {
-  font-family: 'Libre Franklin';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 12px;
-/* identical to box height, or 120% */
-
-letter-spacing: 1px;
-text-transform: uppercase;
-color: #999999;
-
-}
-.md-mr {
-  margin-bottom: 2.5%;
-}
-.md-txt {
-  font-family: 'Tenor Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 19px;
-line-height: 24px;
-/* identical to box height, or 126% */
-
-text-transform: uppercase;
-
-color: #000000;
-
-}
-.md-by {
-  font-family: 'Libre Franklin';
-font-style: normal;
-font-weight: 700;
-font-size: 10px;
-line-height: 12px;
-/* identical to box height, or 120% */
-
-letter-spacing: 1px;
-text-transform: uppercase;
-
-color: #000000;
-}
-.md-img1 {
-  display: flex;
-  justify-content: space-between;
-  gap: 2%;
-  margin-top: 2.5%;
-}
